@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,7 +28,6 @@ public class PostController {
 	@GetMapping("/post")
 	public Post getPost(@RequestParam("id") Long id) {
 		Post post = postService.getPost(id);
-		
 		return post;
 	}
 	
@@ -56,7 +57,34 @@ public class PostController {
 		
 		if(isSuccess) {
 			return new Result(200, "Success");
-		} else { 
+		} else {
+			response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+			return new Result(500, "Fail");
+		}
+	}
+	
+	@DeleteMapping("/post")
+	public Object deletePost(HttpServletResponse response, @RequestParam("id") Long id) {
+		boolean isSuccess = postService.deletePost(id);
+		
+//		log.info("id ::: " + id);
+		
+		if(isSuccess) {
+			return new Result(200, "Success");
+		} else {
+			response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+			return new Result(500, "Fail");
+		}
+	}
+	
+	@PutMapping("/post")
+	public Object modifyPost(HttpServletResponse response, @RequestBody Post postParam) {
+		Post post = new Post(postParam.getId(), postParam.getTitle(), postParam.getContent());
+		boolean isSuccess = postService.updatePost(post);
+		
+		if(isSuccess) {
+			return new Result(200, "Success");
+		} else {
 			response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
 			return new Result(500, "Fail");
 		}

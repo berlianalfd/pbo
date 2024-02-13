@@ -37,7 +37,7 @@ public class PostRepository {
 	}
 	
 	public int savePost(Post post) {
-		String sql = "INSERT INTO post(user,title,content,reg_date, updt_date) VALUES(?,?,?,?)";
+		String sql = "INSERT INTO post(user, title, content, reg_date, updt_date) VALUES(?,?,?,?,?)";
 		return jdbcTemplate.update(sql, post.getUser(), post.getTitle(), post.getContent(), post.getRegDate(), post.getUpdtDate());
 	}
 }
