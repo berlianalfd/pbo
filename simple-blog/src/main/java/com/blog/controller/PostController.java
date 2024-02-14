@@ -50,6 +50,13 @@ public class PostController {
 		return posts;
 	}
 	
+	@GetMapping("/posts/search/content")
+	public List<Post> searchByContent(@RequestParam("query") String query) {
+		List<Post> posts = postService.searchPostByContent(query);
+		return posts;
+	}
+	
+
 	@PostMapping("/post")
 	public Object savePost(HttpServletResponse response, @RequestBody Post postParam) {
 		Post post = new Post(postParam.getUser(), postParam.getTitle(), postParam.getContent());

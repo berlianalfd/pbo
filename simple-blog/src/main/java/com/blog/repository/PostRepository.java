@@ -24,6 +24,18 @@ public class PostRepository {
 		return this.jdbcTemplate.queryForObject(sql, rowMapper, id);
 	}
 	
+	public List<Post> findPostOrderByUpdtDateAsc() {
+		String sql = "SELECT * FROM post ORDER BY updt_date ASC";
+		RowMapper<Post> rowMapper = new PostMapper();
+		return this.jdbcTemplate.query(sql, rowMapper);
+	}
+	
+	public List<Post> findPostOrderByRegDateDesc() {
+		String sql = "SELECT * FROM post ORDER BY reg_date DESC";
+		RowMapper<Post> rowMapper = new PostMapper();
+		return this.jdbcTemplate.query(sql, rowMapper);
+	}
+	
 	public List<Post> findPost() {
 		String sql = "SELECT * FROM post ORDER BY updt_date DESC";
 		RowMapper<Post> rowMapper = new PostMapper();
@@ -34,6 +46,12 @@ public class PostRepository {
 		String sql = "SELECT * FROM post WHERE title LIKE ?";
 		RowMapper<Post> rowMapper = new PostMapper();
 		return this.jdbcTemplate.query(sql,  rowMapper, '%'+query+'%');
+	}
+	
+	public List<Post> findPostLikeContent(String query) {
+		String sql = "SELECT * FROM post WHERE content LIKE ?";
+		RowMapper<Post> rowMapper = new PostMapper();
+		return this.jdbcTemplate.query(sql, rowMapper, '%'+query+'%');
 	}
 	
 	public int savePost(Post post) {

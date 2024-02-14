@@ -368,3 +368,40 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2024-02-14 01:29:08,469 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-02-14 01:29:08,497 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
 2024-02-14 01:29:08,506 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:25:28,016 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-14 14:49:51,753 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:49:52,064 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:49:52,095 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:50:35,765 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:50:35,784 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:50:35,793 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:55:09,153 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:55:09,263 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:55:09,269 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:55:26,585 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:55:26,632 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:55:26,636 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:55:52,628 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:55:52,689 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:55:52,704 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 14:59:24,895 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 14:59:24,980 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 14:59:24,987 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:01:01,408 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:01:01,473 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:01:01,483 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:01:46,061 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:01:46,110 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:01:46,123 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:02:44,963 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:02:44,999 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:02:45,006 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:08:53,018 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:08:53,148 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:08:53,160 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:09:40,480 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:09:40,502 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:09:40,509 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources
+2024-02-14 15:17:28,159 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-14 15:17:28,403 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-14 15:17:28,418 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\BER\KAIST\SEM6\PEMROGRAMAN PL BERORIENTASI OBJEK 3\tugas1\LASTBENERANDRAWAL\simple-blog\src\test\resources

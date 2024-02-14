@@ -37,6 +37,12 @@ public class PostService {
 		return posts;
 	}
 	
+	public List<Post> searchPostByContent(String query) {
+	    List<Post> posts = postJpaRepository.findByContentContainingOrderByUpdtDateDesc(query);
+	    return posts;
+	}
+
+	
 	public boolean savePost(Post post) {
 		Post result = postJpaRepository.save(post);
 		boolean isSuccess = true;

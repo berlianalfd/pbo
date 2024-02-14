@@ -14,5 +14,7 @@ public interface CommentJpaRepository extends JpaRepository<Comment, Serializabl
 	Comment findOneById(Long id);
     List<Comment> findByPostIdOrderByRegDateDesc(Long postId);
     List<Comment> findByPostIdAndCommentContaining(Long postId, String comment);
+    List<Comment> findByPostIdAndCommentContainingOrderByRegDateDesc(Long postId, String comment);
+
 }
 
